@@ -15,7 +15,7 @@ We have a task management system, so we need several entities:
     2- many to many: It represents the relationship between the people who carry out the task and the task, where each task can be carried out by more than one user, and the user can also carry out more than one task**(Here it was considered that one task can be carried out by an entire team and not one person)**.
 
 ### Description
-This project is a **Task Manamanagementger** built using **Laravel 12**. It allows users (only the project_manager, the admin, and the task creator) to perform **CRUD operations** (Create, Read, Update, Delete) on the task, and it also allows only the project_manager and the admin to perform CRUD operations (Create, Update, Read, Delete) on the status.
+This project is a **Task Management** built using **Laravel 12**. It allows users (only the project_manager, the admin, and the task creator) to perform **CRUD operations** (Create, Read, Update, Delete) on the task, and it also allows only the project_manager and the admin to perform CRUD operations (Create, Update, Read, Delete) on the status.
 CRUD operations are also applied to the user. Only the admin and project_manager can add a new user to the system. As for modifying, deleting, and showing all users, only the project_manager may do so. Only the project_manager has the right to define the user role, and only the project_manager and the user who owns the account can see the process of seeing a user's information.
 The Sanctum package was used for authentication in the API.
 
